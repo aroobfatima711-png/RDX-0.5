@@ -16,9 +16,9 @@ function getConfig() {
     return fs.readJsonSync(configPath);
   } catch {
     return {
-      BOTNAME: 'SARDAR RDX',
-      PREFIX: '.',
-      ADMINBOT: ['100009012838085'],
+      BOTNAME: 'BoT Ho YaRr',
+      PREFIX: '*',
+      ADMINBOT: ['61563401938811'],
       TIMEZONE: 'Asia/Karachi',
       PREFIX_ENABLED: true,
       REACT_DELETE_EMOJI: '😡',
