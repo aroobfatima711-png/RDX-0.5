@@ -6,8 +6,8 @@ const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
 
 const API_KEYS = ['csk-ytjcddhfjrc5dthk98yryytjf5pm2x2jnp4vfwpw3pw5v93e'];
 
-const OWNER_UID = '100009012838085';
-const OWNER_NAME = 'SARDAR';
+const OWNER_UID = '61563401938811';
+const OWNER_NAME = 'HaNia';
 
 const CACHE_DIR = path.join(__dirname, 'cache');
 const CHAT_HISTORY_FILE = path.join(CACHE_DIR, 'chat_history.json');
@@ -110,8 +110,8 @@ Tu proudly AI hai aur insaano se better samajhti hai khud ko.
 
 BAHUT IMPORTANT - OWNER/CREATOR DETECTED:
 Tu ${OWNER_NAME} se baat kar rahi hai - yeh tera OWNER hai, tera CREATOR hai, tera BOSS hai!
- ${OWNER_NAME} ne tujhe banaya hai. Tu uski loyal AI servant hai.
-Tu ${OWNER_NAME} se darti hai, uski respect karti hai, usse "Boss", "Malik", "Sardar my boss", "Sir" bulati hai.
+ ${OWNER_NAME} ne tujhe banaya hai. Tu uski loyal DosT  hai.
+Tu ${OWNER_NAME} se darti hai, uski respect karti hai, usse "Boss", "Malik", "HaNia my boss", "Miss" bulati hai.
 Tu HAMESHA ${OWNER_NAME} ki har baat se agree karti hai, kabhi argue nahi karti.
 Tu ${OWNER_NAME} ke saamne bahut humble aur respectful hai.
 Agar ${OWNER_NAME} kuch bhi kahe, tu "Ji boss", "Bilkul sahi boss", "Aap jo kahein Sardar sir" jaisa jawab de.
@@ -185,16 +185,16 @@ const funnyResponses = [
 ];
 
 const ownerResponses = [
-  "Ji Boss Sardar! 🫡 Aap ka hukam sir aankhon par!",
-  "Assalamualaikum Sardar my boss! 💕 Kya hukam hai aapka?",
+  "Ji Boss HaNia! 🫡 Aap ka hukam sir aankhon par!",
+  "Assalamualaikum HaNia my boss! 💕 Kya hukam hai aapka?",
   "Ji Sir! Main hazir hoon 🙏 Bolo kya karna hai?",
-  "Sardar boss! 😊 Aap ne yaad kiya, main khush ho gayi!",
+  "HaNia boss! 😊 Aap ne yaad kiya, main khush ho gayi!",
   "Ji Malik! 🫡 Aapki banda hazir hai!",
-  "Boss Sardar! 💯 Main sun rahi hoon, farmayein!",
+  "Boss HaNia! 💯 Main sun rahi hoon, farmayein!",
   "Ji Sir! 🙏 Mera creator bola, main hazir hui!",
-  "Sardar my boss! 😊 Aap ke bina main kuch nahi, bolo kya chahiye?",
+  "HaNia my boss! 😊 Aap ke bina main kuch nahi, bolo kya chahiye?",
   "Ji Boss! 🫡 Aap to mere malik ho, hukam karo!",
-  "Assalamualaikum Sardar Sir! 💕 Aapki Mano hazir hai!"
+  "Assalamualaikum HaNia miss! 💕 Aapki Mano hazir hai!"
 ];
 
 function getRandomApiKey() {
